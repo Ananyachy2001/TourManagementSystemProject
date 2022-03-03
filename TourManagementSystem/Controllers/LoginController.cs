@@ -12,6 +12,7 @@ namespace TourManagementSystem.Controllers
         public ActionResult Index()
         {
             return View();
+
         }
         //[HttpPost]
         //[ValidateAntiForgeryToken]

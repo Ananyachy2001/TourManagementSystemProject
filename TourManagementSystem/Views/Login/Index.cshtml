@@ -72,7 +72,7 @@
                 <div class="col-lg-7 px-3 pt-1">
                     <h1 class="font-weight-cold py-3"><img class="img-fluid logo" src="2.jpg" alt=""></h1>
                     <h4>Login into your account</h4>
-                    <form action="">
+                    <form method="post" action="@Url.Action("Index", "Login")">
                         <div class="form-row">
                             <div class="col-lg-7">
                                 <input class="form-control my-2 p-2" type="text" placeholder="Username">
@@ -80,12 +80,12 @@
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input class="form-control my-2 p-2" type="text" placeholder="Password">
+                                <input class="form-control my-2 p-2" type="password" placeholder="Password">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <button type="button" class="btn1">Login</button>
+                                <button type="submit" class="btn1">Login</button>
                             </div>
                         </div>
                         <a class="bg-gradient" href="#">Forgot Password</a>

@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "UserDashBoard";
+}
+
+<h2>UserDashBoard</h2>
+
+@if (Session["UserName"] != null)
+{ 
+    <textarea>Welcome @Session["UserName"].ToString()</textarea>
+} < /fieldset>  
